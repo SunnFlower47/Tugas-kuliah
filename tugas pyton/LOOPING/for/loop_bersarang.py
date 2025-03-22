@@ -1,7 +1,7 @@
 n=5
-for i in range(n, 0, -1):
-    for j in range(n):
-        print(i, end=" ")
+for i in range(n):
+    for j in range(1, 6):
+        print(j, end=" ")
     print()
 
 
